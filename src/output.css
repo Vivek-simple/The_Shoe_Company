@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -653,14 +653,6 @@ video {
   margin-top: -100px;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .block {
   display: block;
 }
@@ -671,6 +663,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-24 {
@@ -687,10 +683,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .max-w-2xl {
@@ -786,10 +778,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -822,6 +810,10 @@ video {
 
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-black {
@@ -865,8 +857,8 @@ video {
   padding: 2rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .pb-20 {
@@ -897,10 +889,6 @@ video {
   padding-top: 2rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -924,6 +912,10 @@ video {
   font-size: 16px;
 }
 
+.text-\[8px\] {
+  font-size: 8px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -932,10 +924,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[8px\] {
-  font-size: 8px;
 }
 
 .font-bold {
@@ -970,6 +958,46 @@ video {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+}
+
+.nav-show.nav-show\:fixed {
+  position: fixed;
+}
+
+.nav-show.nav-show\:right-0 {
+  right: 0px;
+}
+
+.nav-show.nav-show\:top-0 {
+  top: 0px;
+}
+
+.nav-show.nav-show\:mt-\[92px\] {
+  margin-top: 92px;
+}
+
+.nav-show.nav-show\:flex {
+  display: flex;
+}
+
+.nav-show.nav-show\:h-\[20vh\] {
+  height: 20vh;
+}
+
+.nav-show.nav-show\:w-\[40\%\] {
+  width: 40%;
+}
+
+.nav-show.nav-show\:flex-col {
+  flex-direction: column;
+}
+
+.nav-show.nav-show\:bg-\[rgba\(57\2c 57\2c 57\2c \.6\)\] {
+  background-color: rgba(57,57,57,.6);
+}
+
+.home.home\:ml-10 {
+  margin-left: 2.5rem;
 }
 
 @media (min-width: 440px) {
